@@ -596,7 +596,7 @@
                 return String(str).replace(/[&<>'"]/g, tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag));
             };
 
-   var API_URL = 'https://script.google.com/macros/s/AKfycby8tvLbj3WiyQJuOXlA0f8Dyw_CEOswT5gaKAn8a6UqW7ZapiclK_19XzrEYUcVke5G/exec';
+   var API_URL = 'https://script.google.com/macros/s/AKfycbzdP1JbK-TYAeBnWd7SOsvc9f8tN3OkmyUYLk0dul8vO3HGkSpTcl0hzM2xKkoWnKZy/exec';
    window.gasRun = function (fn) {
      var args = Array.prototype.slice.call(arguments, 1);
      return fetch(API_URL, {
